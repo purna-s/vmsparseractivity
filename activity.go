@@ -30,7 +30,7 @@ func (a *XMLParserActivity) Metadata() *activity.Metadata {
 //XSD
 type VMSInfo struct {
 	XMLName      xml.Name   `xml:"VMSInfo" json:"-"`
-	VMSmsgList []Incident `xml:"VMSmsg" json:"VMSmsg"`
+	VMSmsgList []VMSmsg `xml:"VMSmsg" json:"VMSmsg"`
 }
 
 type VMSmsg struct {
