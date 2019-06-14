@@ -28,7 +28,7 @@ func (a *XMLParserActivity) Metadata() *activity.Metadata {
 }
 
 //XSD
-/*type VMSInfo struct {
+type VMSInfo struct {
 	XMLName      xml.Name   `xml:"VMSInfo" json:"-"`
 	VMSmsgList []Incident `xml:"VMSmsg" json:"VMSmsg"`
 }
@@ -41,10 +41,10 @@ type VMSmsg struct {
 	Attribute    string   `xml:"Attribute" json:"Attribute"`	
 	Message string   `xml:"Message" json:"Message"`
 }
-*/
 
 
-type	VMSInfo struct {
+
+/*type	VMSInfo struct {
 		VMSmsg []struct {
 			Date        string `json:"Date"`
 			EquipmentID string `json:"EquipmentID"`
@@ -53,7 +53,7 @@ type	VMSInfo struct {
 			Message     string `json:"Message"`
 		} `json:"VMSmsg"`
 	}
-
+*/
 // end of XSD
 
 // Eval implements activity.Activity.Eval
