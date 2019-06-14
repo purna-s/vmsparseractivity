@@ -5,8 +5,8 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/TIBCOSoftware/flogo-lib/core/activity"
-	"github.com/TIBCOSoftware/flogo-lib/logger"
+	"github.com/TIBCOSoftware/flogo-lib/tree/master/core/activity"
+	"github.com/TIBCOSoftware/flogo-lib/tree/master/logger"
 )
 
 // ActivityLog is the default logger for the Log Activity
