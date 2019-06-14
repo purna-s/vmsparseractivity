@@ -3,7 +3,7 @@ title: vmsparseractivity
 ---
 
 # vmsparseractivity
-This activity allows Parse XML using VMS schema in XMLParserActivity code
+This activity allows to parse VMS XML using defined VMS schema
 
 ## Installation
 ### Flogo CLI
