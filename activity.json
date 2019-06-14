@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "type": "flogo:activity",
   "ref": "github.com/purna-s/vmsparseractivity",  
-  "title": "VMSParserTest",
+  "title": "VMSParser",
   "description": "Parse VMS XML into a Flogo Array",
   "author": "Purna S <purna.sadanala@prowesssoft.com>",
 
